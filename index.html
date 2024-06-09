@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Jira Ticket</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="tool-box-cont">
+            <div class="color-cont">
+                <div class="lightpink color"></div>
+                <div class="lightblue color"></div>
+                <div class="lightgreen color"></div>
+                <div class="black color"></div>
+            </div>
+            <div class="action-cont">
+                <div class="add-tick">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="remove-tick">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-cont">
+        </div>
+
+        <div class="modal-cont">
+            <textarea class="task-text" spellcheck="false" placeholder="Enter your task"></textarea>
+            <div class="priority-color-cont">
+                <div class="lightpink task-color"></div>
+                <div class="lightblue task-color"></div>
+                <div class="lightgreen task-color"></div>
+                <div class="black task-color border"></div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
